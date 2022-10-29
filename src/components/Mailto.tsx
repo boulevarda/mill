@@ -4,13 +4,19 @@ import React, { useEffect, useState } from 'react';
 chance of email address scraping */
 
 type MailtoProps = {
-  text: string;
+  children: string;
   address: string;
   domain: string;
   subject?: string;
   className?: string;
 };
-const Mailto = ({ text, address, domain, subject, className }: MailtoProps) => {
+const Mailto = ({
+  children,
+  address,
+  domain,
+  subject,
+  className,
+}: MailtoProps) => {
   const [href, setHref] = useState('');
 
   useEffect(() => {
@@ -20,17 +26,17 @@ const Mailto = ({ text, address, domain, subject, className }: MailtoProps) => {
 
     if (document.readyState === 'complete') {
       onPageLoad();
-    } else {
-      window.addEventListener('load', onPageLoad, false);
-      return () => {
-        window.removeEventListener('load', onPageLoad);
-      };
+      return () => {};
     }
+    window.addEventListener('load', onPageLoad, false);
+    return () => {
+      window.removeEventListener('load', onPageLoad);
+    };
   }, [address, domain, subject]);
 
   return (
     <a className={className} href={href}>
-      {text}
+      {children}
     </a>
   );
 };
