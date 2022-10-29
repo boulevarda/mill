@@ -40,7 +40,9 @@
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:join@sitemill.com?subject=Site Builder Seminar"
+      "address": "join",
+      "domain": "sitemill.com",
+      "subject": "Site Builder Seminar"
     }
   },
   "itinerary": {
