@@ -1,5 +1,7 @@
 import React, { ReactElement } from 'react';
 
+import { AiOutlineClockCircle } from 'react-icons/ai';
+
 import config from '../config/index.json';
 import Divider from './Divider';
 
@@ -26,8 +28,9 @@ const ScheduleItem = ({ item }: ScheduleItemProps): ReactElement => {
   return (
     <li className="mb-5">
       <div className="flex">
-        <div className="bg-blue dark:bg-gray-800 h-6 w-20 md:mb-0 rounded-full flex items-center justify-center">
-          <span className="text-xs text-white font-normal">{item.time}</span>
+        <div className="bg-gray-200 dark:bg-gray-800 h-6 w-20 md:mb-0 rounded-full flex items-center justify-around">
+          <AiOutlineClockCircle />
+          <span className="text-xs font-normal">{item.time}</span>
         </div>
         <div className="pl-2 md:mb-0 flex-grow text-lg">{item.title}</div>
         {item.tag && (

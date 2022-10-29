@@ -121,12 +121,12 @@
         "icon": "/assets/images/ts.png"
       },
       {
-        "name": "Typescript",
+        "name": "Another",
         "description": "Action items that bring the biggest return",
         "icon": "/assets/images/ts.png"
       },
       {
-        "name": "Typescript",
+        "name": "More",
         "description": "Years of indecision now resolved",
         "icon": "/assets/images/ts.png"
       }
@@ -172,7 +172,7 @@
     ]
   },
   "team": {
-    "title": "The Team",
+    "title": "The Speakers",
     "subtitle": "The Talented People Behind the Scenes",
     "members": [
       {
