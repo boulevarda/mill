@@ -1,21 +1,24 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "Site Mill",
+    "logo": "/assets/images/logo.jpg"
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "Seminar",
+      "href": "seminar"
     },
     {
-      "name": "Features",
-      "href": "features"
+      "name": "Itinerary",
+      "href": "itinerary"
     },
-
     {
       "name": "Pricing",
       "href": "pricing"
+    },
+    {
+      "name": "Team",
+      "href": "team"
     },
     {
       "name": "About",
@@ -24,60 +27,105 @@
   ],
   "callToAction": {
     "text": "Get started",
-    "href": "#"
+    "href": "#seminar"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "Turn Raw Land Into",
+    "subtitle": "Multiple Income Streams",
+    "description": "Stop watching others build their dream income properties. Start building yours! Join our seminar and learn how!",
+    "img": "/assets/images/mountainCabin.jpg",
     "primaryAction": {
       "text": "Get started",
-      "href": "#"
+      "href": "#seminar"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:join@sitemill.com?subject=Site Builder Seminar"
     }
   },
-  "product": {
-    "title": "React landing page 2021",
-    "items": [
+  "itinerary": {
+    "title": "Itinerary",
+    "days": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Thursday",
+        "description": "",
+        "img": "/assets/images/cabin1.jpeg",
+        "schedule": [
+          {
+            "title": "Welcome Breakfast",
+            "time": "9am"
+          },
+          { "title": "Create Project Scope", "time": "10am" },
+          { "title": "Lunch and Mingle", "time": "12pm" },
+          { "title": "Identify a Great Area", "time": "1pm" },
+          { "title": "Analyze Market Fit", "time": "3pm" },
+          { "title": "Dinner and Socialize", "time": "5pm" }
+        ]
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Friday",
+        "description": "",
+        "img": "/assets/images/cabin2.jpeg",
+        "schedule": [
+          { "title": "Breakfast Mingle", "time": "9am" },
+          { "title": "Zoning and Permitting", "time": "10am" },
+          { "title": "Lunch and Mingle", "time": "12pm" },
+          { "title": "Construction and Structures", "time": "1pm" },
+          { "title": "Business and Legal", "time": "3pm" },
+          { "title": "Dinner and Socialize", "time": "5pm" }
+        ]
+      },
+      {
+        "title": "Saturday",
+        "description": "",
+        "img": "/assets/images/cabin3.jpeg",
+        "schedule": [
+          { "title": "Breakfast Mingle", "time": "9am" },
+          { "title": "Marketing and Operations", "time": "10am" },
+          { "title": "Lunch and Mingle", "time": "12pm" },
+          { "title": "Tour Build Sites", "time": "1pm" },
+          {
+            "title": "Bonfire Dinner Party",
+            "time": "5pm",
+            "tag": "With Drinks"
+          }
+        ]
       }
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
+    "title": "Seminar Deliverables ",
     "subtitle": "All the best technologies out there!",
     "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
     "items": [
       {
         "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
+        "description": "A straightforward strategy to identifying your next location",
         "icon": "/assets/images/react.png"
       },
       {
         "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
+        "description": "TAn approachable way of navigating counties and regulations",
         "icon": "/assets/images/tailwindcss.svg"
       },
       {
         "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
+        "description": "Clarity around the numbers of any deal",
         "icon": "/assets/images/nextjs.svg"
       },
       {
         "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
+        "description": "A simple, repeatable framework for future investments",
+        "icon": "/assets/images/ts.png"
+      },
+      {
+        "name": "Typescript",
+        "description": "Action items that bring the biggest return",
+        "icon": "/assets/images/ts.png"
+      },
+      {
+        "name": "Typescript",
+        "description": "Years of indecision now resolved",
         "icon": "/assets/images/ts.png"
       }
     ]
@@ -118,6 +166,52 @@
           "100 GB of storage",
           "Phone and Email support"
         ]
+      }
+    ]
+  },
+  "team": {
+    "title": "The Team",
+    "subtitle": "The Talented People Behind the Scenes",
+    "members": [
+      {
+        "name": "Morris Griffith",
+        "title": "Land Hacking Expert",
+        "description": "Outdoor fanatic with a passion for building unique experiences",
+        "avatar": "/assets/images/staff-morris-griffith.jpg",
+        "socials": {
+          "twitter": "https://twitter.com/MorrisGriffith8",
+          "instagram": "https://www.instagram.com/morrgriff/"
+        }
+      },
+      {
+        "name": "Meghan Burgess",
+        "title": "Land Hacking Expert",
+        "description": "Outdoor fanatic with a passion for building unique experiences",
+        "avatar": "/assets/images/staff-meghan-burgess.jpg",
+        "socials": {
+          "twitter": "https://twitter.com/MorrisGriffith8",
+          "instagram": "https://www.instagram.com/morrgriff/"
+        }
+      },
+      {
+        "name": "Kristine Powell",
+        "title": "Land Hacking Expert",
+        "description": "Outdoor fanatic with a passion for building unique experiences",
+        "avatar": "/assets/images/staff-kristine-powell.jpg",
+        "socials": {
+          "twitter": "https://twitter.com/MorrisGriffith8",
+          "instagram": "https://www.instagram.com/morrgriff/"
+        }
+      },
+      {
+        "name": "Eric Perkins",
+        "title": "Land Hacking Expert",
+        "description": "Outdoor fanatic with a passion for building unique experiences",
+        "avatar": "/assets/images/staff-eric-perkins.jpg",
+        "socials": {
+          "twitter": "https://twitter.com/MorrisGriffith8",
+          "instagram": "https://www.instagram.com/morrgriff/"
+        }
       }
     ]
   },
