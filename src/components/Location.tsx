@@ -7,7 +7,7 @@ import { WiTrain } from 'react-icons/wi';
 import config from '../config/index.json';
 import Divider from './Divider';
 
-const getIcon = (icon) => {
+const getIcon = (icon: string) => {
   let result;
   switch (icon) {
     case 'train':
