@@ -11,6 +11,7 @@ SiteMill Customizations, Inspirations, and Resources:
 - [Face generation](https://this-person-does-not-exist.com/en)
 - [Name generation](http://random-name-generator.info/index.php)
 - [Conference Template](https://evnia-react.hibootstrap.com/)
+- [Logo Maker](https://www.freelogo.me/logo-maker?title=Site+Mill)
 
 ## <a href="https://react-landing-page-template-2021.vercel.app/"> LIVE DEMO</a>
 
