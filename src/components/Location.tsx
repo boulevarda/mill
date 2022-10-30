@@ -29,7 +29,16 @@ const getIcon = (icon) => {
 
 const Location = () => {
   const { location } = config;
-  const { title, subtitle, description, img, lodging } = location;
+  const {
+    title,
+    subtitle,
+    description,
+    img,
+    lodging,
+    name,
+    address1,
+    address2,
+  } = location;
   const { title: lodgingTitle, options: lodgingOptions } = lodging;
   return (
     <div className={`py-12 bg-background`} id="location">
@@ -54,6 +63,13 @@ const Location = () => {
           <img src={img} />
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             {description}
+          </p>
+          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            {name}
+            <br />
+            {address1}
+            <br />
+            {address2}
           </p>
         </div>
 

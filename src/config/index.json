@@ -87,8 +87,6 @@
     "description": "Meet up at the Railroad Park Resort on Thursday for our morning sessions. Each day we will meet up at different locations throughout the Mount Shasta area. Drinks and snacks are included and meals will be catered by various nearby restaurants. Please let us know of any dietary restrictions. Off-road transportation is available to tour active development site on the last day.",
     "start": "October 20, 2022",
     "end": "October 22, 2022",
-    "address1": "100 Railroad Park Road",
-    "address2": "Dunsmuir, California 96025",
     "days": [
       {
         "title": "Thursday",
@@ -132,9 +130,12 @@
   },
   "location": {
     "title": "Location",
+    "name": "Railroad Park Resort",
+    "address1": "100 Railroad Park Road",
+    "address2": "Dunsmuir, California 96025",
     "img": "/assets/images/rrpark.jpeg",
     "subtitle": "Join us at the Railroad Park Resort!",
-    "description": "The Railroad Park Resort is an amazing example of turning raw land into one of the most unique experiences in Northern California. Eat on a train, sleep in a caboose!",
+    "description": "The Railroad Park Resort is an amazing example of turning raw land into one of the most unique experiences in Northern California. Eat on a train, sleep in a caboose, swim in the pool!",
     "lodging": {
       "title": "Nearby Lodging Options",
       "options": [
