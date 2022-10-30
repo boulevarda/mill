@@ -88,7 +88,7 @@ const ItineraryDay = ({ day, reverse }: ItineraryDayProps): ReactElement => {
   );
 };
 
-const Product = () => {
+const Itinerary = () => {
   const { itinerary } = config;
 
   return (
@@ -107,6 +107,12 @@ const Product = () => {
           ))}
         </h1>
         <Divider />
+        <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto text-center font-bold">
+          {itinerary.start} - {itinerary.end}
+        </p>
+        <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          {itinerary.description}
+        </p>
         {itinerary?.days.map((day, idx) => (
           <ItineraryDay key={idx} day={day} reverse={!!(idx % 2)} />
         ))}
@@ -115,4 +121,4 @@ const Product = () => {
   );
 };
 
-export default Product;
+export default Itinerary;

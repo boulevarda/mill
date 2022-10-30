@@ -5,11 +5,12 @@ import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
 import Features from '../components/Features';
 import Header from '../components/Header';
+import Itinerary from '../components/Itinerary';
 import LazyShow from '../components/LazyShow';
+import Location from '../components/Location';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import Pricing from '../components/Pricing';
-import Product from '../components/Product';
 import Team from '../components/Team';
 
 const App = () => {
@@ -28,25 +29,19 @@ const App = () => {
       </div>
       <Canvas />
       <LazyShow>
-        <>
-          <Features />
-          <Canvas />
-        </>
+        <Features />
       </LazyShow>
       <LazyShow>
-        <>
-          <Product />
-          <Canvas />
-        </>
+        <Itinerary />
+      </LazyShow>
+      <LazyShow>
+        <Location />
+      </LazyShow>
+      <LazyShow>
+        <Team />
       </LazyShow>
       <LazyShow>
         <Pricing />
-      </LazyShow>
-      <LazyShow>
-        <>
-          <Canvas />
-          <Team />
-        </>
       </LazyShow>
       <LazyShow>
         <>

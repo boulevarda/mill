@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { FiTwitter, FiInstagram } from 'react-icons/fi';
-
 import config from '../config/index.json';
 import Divider from './Divider';
 
@@ -24,6 +22,9 @@ const Team = () => {
           ))}
         </h1>
         <Divider />
+        <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          {team.description}
+        </p>
       </div>
       <div className="lg:flex md:flex sm:flex items-center xl:justify-around flex-wrap md:justify-around sm:justify-around lg:justify-around bg-sky px-10 pt-20">
         {team.members.map((member) => (
@@ -41,7 +42,7 @@ const Team = () => {
                   />
                 </div>
               </div>
-              <div className="px-6 mt-16">
+              <div className="px-6 mt-16 pb-5">
                 <div className="font-bold text-3xl text-center pb-1">
                   {member?.name}
                 </div>
@@ -51,7 +52,7 @@ const Team = () => {
                 <p className="text-center text-gray-600 text-base pt-3 font-normal">
                   {member?.description}
                 </p>
-                <div className="w-full flex justify-center pt-5 pb-5">
+                {/* <div className="w-full flex justify-center pt-5 pb-5">
                   <a href={member?.socials?.twitter} className="mx-5">
                     <div>
                       <FiTwitter />
@@ -62,7 +63,7 @@ const Team = () => {
                       <FiInstagram />
                     </div>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

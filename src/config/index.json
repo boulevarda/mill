@@ -13,8 +13,8 @@
       "href": "itinerary"
     },
     {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Location",
+      "href": "location"
     },
     {
       "name": "Team",
@@ -31,7 +31,7 @@
   },
   "mainHero": {
     "title": "Turn Raw Land Into",
-    "subtitle": "Multiple Income Streams",
+    "subtitle": "Income Streams",
     "description": "Stop watching others build their dream income properties. Start building yours! Join our seminar and learn how!",
     "img": "/assets/images/mountainCabin.jpg",
     "primaryAction": {
@@ -39,24 +39,63 @@
       "href": "#seminar"
     },
     "secondaryAction": {
-      "text": "Email us",
-      "address": "join",
+      "text": "Email to Register",
+      "address": "seminar",
       "domain": "sitemill.com",
-      "subject": "Site Builder Seminar"
+      "subject": "Site Mill Seminar"
     }
+  },
+  "features": {
+    "title": "What to Expect",
+    "subtitle": "Follow in our Footsteps",
+    "description": "Do you dream of your own remote space nestled in nature? Learn how to acquire, permit, build, and maximize profits from raw land. Avoid the mistakes we've made along the way.",
+    "items": [
+      {
+        "name": "Knowing where to start looking",
+        "description": "A straightforward strategy to identifying your next location",
+        "icon": "/assets/images/react.png"
+      },
+      {
+        "name": "Understanding zoning and permits",
+        "description": "An approachable way of navigating counties and regulations",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Feeling alone trying to learn all of this",
+        "description": "Years of indecision now resolved",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Understanding the numbers",
+        "description": "Clarity around the numbers of any deal",
+        "icon": "/assets/images/ts.png"
+      },
+      {
+        "name": "Knowing how to analyze a market",
+        "description": "Action items that bring the biggest return",
+        "icon": "/assets/images/ts.png"
+      },
+      {
+        "name": "Building a real estate portfolio",
+        "description": "A simple, repeatable framework for future investments",
+        "icon": "/assets/images/ts.png"
+      }
+    ]
   },
   "itinerary": {
     "title": "Itinerary",
+    "description": "Meet up at the Railroad Park Resort on Thursday for our morning sessions. Each day we will meet up at different locations throughout the Mount Shasta area. Drinks and snacks are included and meals will be catered by various nearby restaurants. Please let us know of any dietary restrictions. Off-road transportation is available to tour active development site on the last day.",
+    "start": "October 20, 2022",
+    "end": "October 22, 2022",
+    "address1": "100 Railroad Park Road",
+    "address2": "Dunsmuir, California 96025",
     "days": [
       {
         "title": "Thursday",
         "description": "",
         "img": "/assets/images/cabin1.jpeg",
         "schedule": [
-          {
-            "title": "Welcome Breakfast",
-            "time": "9am"
-          },
+          { "title": "Welcome Breakfast", "time": "9am" },
           { "title": "Create Project Scope", "time": "10am" },
           { "title": "Lunch and Mingle", "time": "12pm" },
           { "title": "Identify a Great Area", "time": "1pm" },
@@ -85,100 +124,97 @@
           { "title": "Breakfast Mingle", "time": "9am" },
           { "title": "Marketing and Operations", "time": "10am" },
           { "title": "Lunch and Mingle", "time": "12pm" },
-          { "title": "Tour Build Sites", "time": "1pm" },
-          {
-            "title": "Bonfire Dinner Party",
-            "time": "5pm",
-            "tag": "With Drinks"
-          }
+          { "title": "Tour Build Site", "time": "1pm" },
+          { "title": "Bonfire Dinner Party", "time": "5pm" }
         ]
       }
     ]
   },
-  "features": {
-    "title": "Seminar Deliverables ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "items": [
-      {
-        "name": "React.js",
-        "description": "A straightforward strategy to identifying your next location",
-        "icon": "/assets/images/react.png"
-      },
-      {
-        "name": "Tailwind",
-        "description": "TAn approachable way of navigating counties and regulations",
-        "icon": "/assets/images/tailwindcss.svg"
-      },
-      {
-        "name": "Next.js",
-        "description": "Clarity around the numbers of any deal",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "A simple, repeatable framework for future investments",
-        "icon": "/assets/images/ts.png"
-      },
-      {
-        "name": "Another",
-        "description": "Action items that bring the biggest return",
-        "icon": "/assets/images/ts.png"
-      },
-      {
-        "name": "More",
-        "description": "Years of indecision now resolved",
-        "icon": "/assets/images/ts.png"
-      }
-    ]
+  "location": {
+    "title": "Location",
+    "img": "/assets/images/rrpark.jpeg",
+    "subtitle": "Join us at the Railroad Park Resort!",
+    "description": "The Railroad Park Resort is an amazing example of turning raw land into one of the most unique experiences in Northern California. Eat on a train, sleep in a caboose!",
+    "lodging": {
+      "title": "Nearby Lodging Options",
+      "options": [
+        {
+          "name": "Railroad Park Caboose or Cabin",
+          "icon": "train"
+        },
+        {
+          "name": "Railroad Park RV or Camp Site",
+          "icon": "camp"
+        },
+        {
+          "name": "Hotel in Dunsmuir or Mount Shasta",
+          "icon": "hotel"
+        },
+        {
+          "name": "Airbnb in Dunsmuir or Mount Shasta",
+          "icon": "house"
+        }
+      ]
+    }
   },
+
   "pricing": {
     "title": "Pricing",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
+        "name": "Seminar Package",
+        "price": "$1200",
+        "priceDetails": "per person",
         "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
+          "Full 3 Day Seminar",
+          "All Meals and Snacks",
+          "Site Tour Transportation",
+          "Full Content Library"
         ]
       },
       {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
+        "name": "Community Package",
+        "price": "$1400",
+        "priceDetails": "per person",
 
         "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
+          "Entire Seminar Package",
+          "Group Coaching Sessions",
+          "Community Portal Access",
+          "Lifetime Library Access"
         ]
       },
       {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
+        "name": "Coaching Package",
+        "price": "$2000",
+        "priceDetails": "per person",
         "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
+          "Entire Community Package",
+          "VIP Coaching Sessions",
+          "Cocktails with the Experts",
+          "Purchasing Group Membership"
         ]
       }
     ]
   },
   "team": {
-    "title": "The Speakers",
-    "subtitle": "The Talented People Behind the Scenes",
+    "title": "The Experts",
+    "description": "Meet our team of talented land hacking experts. Each of us has done this before, made many mistakes, and learned much along the way. Now we want to share everything we've learned with you.",
     "members": [
       {
+        "name": "Meghan Burgess",
+        "title": "Experience Visionary",
+        "description": "Envisions amazing experiences and finds perfect locations",
+        "avatar": "/assets/images/staff-meghan-burgess.jpg",
+        "socials": {
+          "twitter": "https://twitter.com/BurgessMeghann",
+          "instagram": "https://www.instagram.com/BurgessMeghann/"
+        }
+      },
+      {
         "name": "Morris Griffith",
-        "title": "Land Hacking Expert",
-        "description": "Outdoor fanatic with a passion for building unique experiences",
+        "title": "Builder Extraordinaire",
+        "description": "Wealth of experience building unique structures and experiences",
         "avatar": "/assets/images/staff-morris-griffith.jpg",
         "socials": {
           "twitter": "https://twitter.com/MorrisGriffith8",
@@ -186,33 +222,23 @@
         }
       },
       {
-        "name": "Meghan Burgess",
-        "title": "Land Hacking Expert",
-        "description": "Outdoor fanatic with a passion for building unique experiences",
-        "avatar": "/assets/images/staff-meghan-burgess.jpg",
-        "socials": {
-          "twitter": "https://twitter.com/MorrisGriffith8",
-          "instagram": "https://www.instagram.com/morrgriff/"
-        }
-      },
-      {
         "name": "Kristine Powell",
-        "title": "Land Hacking Expert",
-        "description": "Outdoor fanatic with a passion for building unique experiences",
+        "title": "Regulatory Genius",
+        "description": "Amazing at navigating zoning, permitting, and regulations.",
         "avatar": "/assets/images/staff-kristine-powell.jpg",
         "socials": {
-          "twitter": "https://twitter.com/MorrisGriffith8",
-          "instagram": "https://www.instagram.com/morrgriff/"
+          "twitter": "https://twitter.com/Kristin27109775",
+          "instagram": "https://www.instagram.com/Kristin27109775/"
         }
       },
       {
         "name": "Eric Perkins",
-        "title": "Land Hacking Expert",
-        "description": "Outdoor fanatic with a passion for building unique experiences",
+        "title": "Marketing Master",
+        "description": "Analyzes deals, works the numbers, and maximizes profits.",
         "avatar": "/assets/images/staff-eric-perkins.jpg",
         "socials": {
-          "twitter": "https://twitter.com/MorrisGriffith8",
-          "instagram": "https://www.instagram.com/morrgriff/"
+          "twitter": "https://twitter.com/ferricgherkins",
+          "instagram": "https://www.instagram.com/ferricgherkins/"
         }
       }
     ]
@@ -220,24 +246,20 @@
   "about": {
     "sections": [
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "Lands of America",
+        "href": "https://www.land.com/"
       },
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "Land Watch",
+        "href": "https://www.landwatch.com/"
       },
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "Land Modo",
+        "href": "https://www.landmodo.com/"
       },
       {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        "name": "Land Search",
+        "href": "https://www.landsearch.com/"
       }
     ],
     "socialMedia": {

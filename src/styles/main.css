@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+// https://coolors.co/4ebc7d-008dd5-1b2845-3abb94-82204a
 :root {
   --color-primary: #358c5a;
   --color-secondary: #3ea369;
@@ -10,11 +10,11 @@
 }
 
 a { 
-  @apply text-blue;
+  @apply text-primary;
 }
 
 a:hover {
-  @apply border-b-2 border-blue;
+  @apply border-b-2 border-primary;
 }
 
 

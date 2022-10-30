@@ -1,13 +1,11 @@
 import React from 'react';
 
-import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai';
-
 import config from '../config/index.json';
 
 const About = () => {
   const { company, about } = config;
   const { logo, name: companyName } = company;
-  const { socialMedia, sections } = about;
+  const { sections } = about;
 
   return (
     <div
@@ -29,7 +27,7 @@ const About = () => {
             </a>
           ))}
         </div>
-        <div className="flex items-center gap-x-8 mt-6 h-8">
+        {/* <div className="flex items-center gap-x-8 mt-6 h-8">
           <a
             aria-label="twitter"
             href={socialMedia.twitter}
@@ -46,7 +44,7 @@ const About = () => {
           >
             <AiFillInstagram className="fill-current text-gray-800 text-3xl dark:text-white hover:text-primary " />
           </a>
-        </div>
+        </div> */}
         <div className="flex items-center mt-6">
           <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">
             &copy; {new Date().getFullYear()} Site Mill

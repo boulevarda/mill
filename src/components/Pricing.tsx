@@ -1,9 +1,10 @@
 import React from 'react';
 
 import config from '../config/index.json';
+import Mailto from './Mailto';
 
 const Pricing = () => {
-  const { pricing } = config;
+  const { pricing, mainHero } = config;
   const { items, title } = pricing;
   const [firstPlan, secondPlan, thirdPlan] = items;
 
@@ -118,6 +119,16 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="mt-3 sm:mt-0 sm:ml-3 text-center">
+        <Mailto
+          address={mainHero.secondaryAction.address}
+          domain={mainHero.secondaryAction.domain}
+          subject={mainHero.secondaryAction.subject}
+          className={`px-8 py-3 border border-transparent font-medium rounded-md border-primary text-secondary bg-background hover:bg-border hover:text-primary md:py-4 md:text-lg md:px-10`}
+        >
+          {mainHero.secondaryAction.text}
+        </Mailto>
       </div>
     </section>
   );
