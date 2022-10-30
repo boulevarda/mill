@@ -1,5 +1,17 @@
 # React.js landing page template v2
 
+SiteMill Customizations, Inspirations, and Resources:
+- [Color palette](https://coolors.co/4ebc7d-008dd5-1b2845-3abb94-82204a)
+- [Cabin images](https://www.instagram.com/tiny.houses/?hl=en) 
+- [Mountain Cabin](https://unsplash.com/photos/Yd59eQJVYAo)
+- [Image editor for Mountain Cabin](https://pixlr.com/x/)
+- [React Icons](https://react-icons.github.io/react-icons)
+- [Mailto component](https://www.matthewthom.as/blog/stop-email-scraping/)
+- [Styling inspirations](https://app.tailwinduikit.com/components)
+- [Face generation](https://this-person-does-not-exist.com/en)
+- [Name generation](http://random-name-generator.info/index.php)
+- [Conference Template](https://evnia-react.hibootstrap.com/)
+
 ## <a href="https://react-landing-page-template-2021.vercel.app/"> LIVE DEMO</a>
 
 <img src="public/assets/gifs/demo.gif" width="100%" height="auto" />
