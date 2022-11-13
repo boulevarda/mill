@@ -1,6 +1,7 @@
 # React.js landing page template v2
 
 SiteMill Customizations, Inspirations, and Resources:
+- [Hosted via Cloudflare Pages](https://dash.cloudflare.com/d586caea9f5ac8e23bbdef256efa9a40/pages/view/sitemill)
 - [Color palette](https://coolors.co/4ebc7d-008dd5-1b2845-3abb94-82204a)
 - [Cabin images](https://www.instagram.com/tiny.houses/?hl=en) 
 - [Mountain Cabin](https://unsplash.com/photos/Yd59eQJVYAo)
